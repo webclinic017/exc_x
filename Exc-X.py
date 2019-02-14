@@ -6,7 +6,7 @@ from requests.exceptions import ConnectionError
 import datetime
 import sqlite3
 
-## developer & designer : ethemguener@gmail.com
+# author : ethemguener@gmail.com
 
 class Window(QtWidgets.QWidget):
     def __init__(self):
@@ -821,7 +821,7 @@ class Window(QtWidgets.QWidget):
         
         ## writing done.
         
-        data_information.close()  ## file closed officer.
+        data_information.close()  ## file closed.
         self.set_data_in_textview() ## letz go
   
     def set_data_in_textview(self):
@@ -849,11 +849,6 @@ class Window(QtWidgets.QWidget):
         elif comboText2 == "EURO/USD":
             self.forexGraph.load(QtCore.QUrl('https://www.tradingview.com/chart/?symbol=FX_IDC%3AEURUSD'))
             
-
-## Finished.
-            ## It was hard.
-                            ## But I made it.
-                                            ## See ya in another project.
                                         
             
 app = QtWidgets.QApplication(sys.argv)
